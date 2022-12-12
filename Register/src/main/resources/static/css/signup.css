@@ -1,0 +1,56 @@
+@charset "UTF-8";
+#title{
+    font-size: 25px;
+    margin-left: 10vw;
+    font-weight: bolder;
+}
+#titleNext{
+    font-size: 15px;
+    width: 350px;
+}
+#form{
+    margin-left: 440px;
+}
+#signupTitle{
+    font-size: 60px;
+    font-family: Nunito;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    width: 350px;
+    height: 44px;
+    font-size: 17px;
+    box-shadow: 0px 8px 20px rgba(78, 96, 255, 0.16);
+    border-radius: 8px;
+}
+input[type="email"]{
+    width: 350px;
+    height: 44px;
+    font-size: 17px;
+    box-shadow: 0px 8px 20px rgba(78, 96, 255, 0.16);
+    border-radius: 8px;
+}
+input[type="password"]{
+    width: 350px;
+    height: 44px;
+    font-size: 17px;
+    box-shadow: 0px 8px 20px rgba(78, 96, 255, 0.16);
+    border-radius: 8px;
+}
+input[type="address"]{
+    width: 350px;
+    height: 44px;
+    font-size: 17px;
+    box-shadow: 0px 8px 20px rgba(78, 96, 255, 0.16);
+    border-radius: 8px;
+}
+#signupbtn{
+    width: 350px;
+    height: 44px;
+    font-size: 20px;
+    background: #4E60FF;
+    box-shadow: 0px 8px 20px rgba(78, 96, 255, 0.16);
+    border-radius: 8px;
+    color: whitesmoke;
+}

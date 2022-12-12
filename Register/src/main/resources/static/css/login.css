@@ -1,0 +1,55 @@
+@charset "UTF-8";
+#title{
+    font-size: 18px;
+    margin-left: 10vw;
+    font-weight: bolder;
+}
+#form{
+    margin-left: 10vw;
+    width: 350px;
+    height: 50px;
+    margin-top:-10px ;
+}
+#logTitle{
+    font-size: 60px;
+    font-family: Nunito;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+#titleNext{
+    font-size: 13px;
+    width: 350px;
+}
+#logbtn{
+    width: 350px;
+    height: 44px;
+    font-size: 20px;
+    background: #4E60FF;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+input[type="email"]{
+    width: 350px;
+    height: 44px;
+    font-size: 17px;
+    border-radius: 8px;
+}
+input[type="password"]{
+    width: 350px;
+    height: 44px;
+    font-size: 17px;
+    border-radius: 8px;
+}
+.otherSide{
+    background-color: #4E60FF;
+    width: 722px;
+    height: 602px;
+    margin-top: -170px;
+    margin-left: 550px;
+} 
+.otherSide img{
+    width: 550px;
+    margin-top: 30px;
+    margin-left: 90px;
+    height: 400px;
+}

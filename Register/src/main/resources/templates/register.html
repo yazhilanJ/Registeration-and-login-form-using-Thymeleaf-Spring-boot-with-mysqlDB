@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page</title>
+    <link rel="stylesheet" href="" th:href="@{/css/signup.css}" />
+    
+</head>
+<body>
+    <div>
+        <div id="header">
+            <p id="title">Food<br> <k style="color: #4E60FF;" >Delivery</k></p>
+        </div>
+        <div id="form">
+            <form th:action="@{/registeruser}" th:object="${user}" method="post">
+                <p id="signupTitle">Sign Up</p>
+                <p id="titleNext"><k style="color: red;">*</k>Please fill with appropriate valid informatons</p>
+                First Name<k style="color: red;">*</k> <br>
+                <input type="text" placeholder="Enter your First name" th:field="*{firstname}"> <br><br>
+                Last name<k style="color: red;">*</k> <br>
+                <input type="text" placeholder="Enter your Last name" th:field="*{lastname}"> <br><br>
+                Email<k style="color: red;">*</k> <br>
+                <input type="email" placeholder="Enter your Email" th:field="*{email}"> <br><br>
+                Password<k style="color: red;">*</k> <br>
+                <input type="password" placeholder="Enter the password" th:field="*{password}"> <br><br>
+                Confirm Password<k style="color: red;">*</k> <br>
+                <input type="password" placeholder="Re-enter the password" th:field="*{cpassword}"> <br><br>
+                <input type="checkbox"> I Understand the Terms & conditions <br><br>
+                <input type="submit" value="Signup" id="signupbtn"><br>
+                  <!--  <button type="submit"  id="signupbtn"> Sign Up</button>-->
+                <p style="margin-left:40px; font-size: 20px;">Already have an account?<a th:href="@{/templates/loginform.html}" style="text-decoration: none;">Login</a></p>           
+            </form>
+        </div>
+    </div>
+</body>
+</html>
